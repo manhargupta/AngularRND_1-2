@@ -1,0 +1,12 @@
+<h1>JS angularJS</h1>
+<app-details></app-details>
+<div>
+  <ul class="nav nav-tabs rmc-nav-tabs tabs-menu">
+    <li ui-sref-active="active" ng-repeat="tab in tabs" style="display: inline;">
+      <a ui-sref="{{tab.route}}">
+        <strong>{{tab.title}}</strong></a>
+    </li>
+  </ul>
+  <div ui-view>
+  </div>
+</div>

@@ -16,5 +16,8 @@
       "es2017",
       "dom"
     ]
+  },
+  "map" :{
+    "@angular/upgrade/static": "npm:@angular/upgrade/bundles/upgrade-static.umd.js"
   }
 }
